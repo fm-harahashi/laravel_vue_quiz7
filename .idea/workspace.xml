@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="5-1 Vue Routerの導入">
+    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="6-1 実装準備Axiosのインストール">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/InformationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Information.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_13_082220_create_informations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/InformationTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/page/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,11 +137,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mxlKu0VcRQiPB3H69oaV89oSxV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -158,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610443062959</updated>
       <workItem from="1610443063983" duration="2316000" />
-      <workItem from="1610504606032" duration="4973000" />
+      <workItem from="1610504606032" duration="7265000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1610506027074</created>
@@ -174,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610519304585</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5-2 ホーム画面・クイズ画面のSPA化">
+      <created>1610520297171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610520297171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6-1 実装準備Axiosのインストール">
+      <created>1610520510900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610520510900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,9 +215,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="5-1 Vue Routerの導入" />
-    <option name="LAST_COMMIT_MESSAGE" value="5-1 Vue Routerの導入" />
+    <MESSAGE value="5-2 ホーム画面・クイズ画面のSPA化" />
+    <MESSAGE value="6-1 実装準備Axiosのインストール" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-1 実装準備Axiosのインストール" />
   </component>
   <component name="WindowStateProjectService">
     <state width="882" height="301" key="GridCell.Tab.0.bottom" timestamp="1610504582723">
@@ -213,9 +239,13 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="882" height="301" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1610504582723" />
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610519393930">
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610520524374">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610519393930" />
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610520524374" />
+    <state x="987" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1610633061526">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="987" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1610633061526" />
   </component>
 </project>
