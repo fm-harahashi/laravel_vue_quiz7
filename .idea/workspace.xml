@@ -19,11 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="6-3 ホーム画面のお知らせAPI連携を実装する">
-      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_234955_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" afterDir="false" />
+    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="6-4 ホーム画面のクイズカテゴリーAPI連携を実装する">
+      <change afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/QuizController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Quiz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_15_011422_create_quizzes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_15_011758_create_answers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AnswerTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/QuizTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
@@ -165,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610443062959</updated>
       <workItem from="1610443063983" duration="2316000" />
-      <workItem from="1610504606032" duration="8494000" />
+      <workItem from="1610504606032" duration="9491000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1610506027074</created>
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610635676794</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6-4 ホーム画面のクイズカテゴリーAPI連携を実装する">
+      <created>1610640731229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610640731229</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +236,8 @@
     <MESSAGE value="5-2 ホーム画面・クイズ画面のSPA化" />
     <MESSAGE value="6-1 実装準備Axiosのインストール" />
     <MESSAGE value="6-3 ホーム画面のお知らせAPI連携を実装する" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-3 ホーム画面のお知らせAPI連携を実装する" />
+    <MESSAGE value="6-4 ホーム画面のクイズカテゴリーAPI連携を実装する" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-4 ホーム画面のクイズカテゴリーAPI連携を実装する" />
   </component>
   <component name="WindowStateProjectService">
     <state width="882" height="301" key="GridCell.Tab.0.bottom" timestamp="1610504582723">
@@ -245,10 +256,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="882" height="301" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1610504582723" />
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610635690682">
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610640740205">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610635690682" />
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610640740205" />
     <state x="987" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1610633061526">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
