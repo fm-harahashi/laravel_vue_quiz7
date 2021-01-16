@@ -1,4 +1,5 @@
 <?php
+
 Route::get('/', function () {
     return view('index');
 });
@@ -15,3 +16,5 @@ Route::get('/register', function () {
 Route::post('/register', 'Auth\RegisterController@register');
 Route::post('/login', 'Auth\LoginController@login');
 Route::post('/logout', 'Auth\LoginController@logout');
+
+Route::post('/insertRanking', 'Web\RankingController@insertRanking');
