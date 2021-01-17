@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="11-2 LLaravel-Adminのカスタマイズ -お知らせ・カテゴリー・一般ユーザー管理の実装-">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/QuizController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="afce4943-9ea9-4b53-8f9a-ce75d288eb3b" name="Default Changelist" comment="11-3 Laravel-Adminのカスタマイズ -クイズ・回答の管理の実装-">
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/KeywordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Quiz.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Quiz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610443062959</updated>
       <workItem from="1610443063983" duration="2316000" />
-      <workItem from="1610504606032" duration="34957000" />
+      <workItem from="1610504606032" duration="35262000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1610506027074</created>
@@ -412,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610894844471</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="11-3 Laravel-Adminのカスタマイズ -クイズ・回答の管理の実装-">
+      <created>1610895985267</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610895985267</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6-7 クイズ画面のクイズ出題API連携を実装する-Vue.js側の実装-2問目以降の問題を表示する" />
     <MESSAGE value="6-8 クイズ画面に正答率グラフを導入する" />
     <MESSAGE value="7-2 実装準備Layoutの共通化" />
     <MESSAGE value="7-3 会員登録機能の作成 -見た目のコーディング-" />
@@ -456,7 +457,8 @@
     <MESSAGE value="10-6 ソーシャルシェア機能の調整 -ogpの導入-" />
     <MESSAGE value="11-1 Laravel-Adminの導入" />
     <MESSAGE value="11-2 LLaravel-Adminのカスタマイズ -お知らせ・カテゴリー・一般ユーザー管理の実装-" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-2 LLaravel-Adminのカスタマイズ -お知らせ・カテゴリー・一般ユーザー管理の実装-" />
+    <MESSAGE value="11-3 Laravel-Adminのカスタマイズ -クイズ・回答の管理の実装-" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-3 Laravel-Adminのカスタマイズ -クイズ・回答の管理の実装-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1047" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610802885178">
@@ -479,10 +481,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="882" height="301" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1610504582723" />
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610894936029">
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2" timestamp="1610895995913">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610894936029" />
+    <state x="922" y="315" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1610895995913" />
     <state x="1023" y="326" width="598" height="490" key="find.popup" timestamp="1610791288579">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
